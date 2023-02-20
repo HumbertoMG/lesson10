@@ -1,0 +1,10 @@
+# Solicito nombre y edad de la primera persona
+nombre1 = input("Quien es la primer persona? ")
+edad1 = int(input("Cual es su edad? "))
+# Solicito nombre y edad de la segunda persona
+nombre2 = input("Cual es el nombre de la segunda persona? ")
+edad2 = int(input("Cual es su edad? "))
+# Reviso quien de los 2 es mayor
+if edad1 > edad2: print(nombre1, "es mayor que ", nombre2, " ya que tiene ", edad1 - edad2, " años más que ", nombre2)
+elif edad1 < edad2: print(nombre2, "es mayor que ", nombre1, " ya que tiene ", edad2 - edad1, " años más que ", nombre1)
+else: print(nombre1, " y ", nombre2, " son de la misma edad")
