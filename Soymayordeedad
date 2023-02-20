@@ -1,0 +1,8 @@
+# Solicito se ingrese la edad
+edad = input("Introduce mi edad: ")
+# Imprimo la edad
+print ("Mi edad es de ", edad, " años")
+# Si tengo 18 o más imprimo que soymayor de edad
+# Si eres menor o igual a 
+if int(edad) >= 18: print("Soy mayor de edad")
+else: print("Todavía no llego a la mayoría de edad")
